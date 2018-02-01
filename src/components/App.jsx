@@ -28,7 +28,7 @@ class App extends React.Component {
   }
 
   handleSearchResults(data) {
-    this.setState({videos: data})
+    this.setState({videos: data});
   }
 
   render() {
